@@ -36,6 +36,7 @@ Version Control	Git & GitHub
 
 ### 1. Clone the Repository
 git clone https://github.com/harsha-0822/AI-Powered-Multilingual-Assistant.git
+
 cd AI-Powered-Multilingual-Assistant
 
 ### 2. Create a Virtual Environment
