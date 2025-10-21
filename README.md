@@ -39,6 +39,7 @@ cd AI-Powered-Multilingual-Assistant
 
 ### 2. Create a Virtual Environment
 python -m venv venv
+
 venv\Scripts\activate       //Windows
 
 or
