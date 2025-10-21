@@ -39,9 +39,11 @@ cd AI-Powered-Multilingual-Assistant
 
 ### 2. Create a Virtual Environment
 python -m venv venv
-venv\Scripts\activate       # Windows
+venv\Scripts\activate       //Windows
+
 or
-source venv/bin/activate    # Linux/Mac
+
+source venv/bin/activate    //Linux/Mac
 
 ### 3. Install Dependencies
 pip install -r requirements.txt
