@@ -35,8 +35,8 @@ Version Control	Git & GitHub
 ### ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-git clone https://github.com/harsha-0822/Smart-EduBot-Flask.git
-cd Smart-EduBot-Flask
+git clone https://github.com/harsha-0822/AI-Powered-Multilingual-Assistant.git
+cd AI-Powered-Multilingual-Assistant
 
 ### 2. Create a Virtual Environment
 python -m venv venv
