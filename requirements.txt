@@ -1,0 +1,17 @@
+🧾 Requirements
+
+This project uses the following dependencies:
+
+Flask==3.0.3
+Werkzeug==3.0.2
+googletrans==4.0.0-rc1
+pandas==2.2.2
+matplotlib==3.9.0
+tensorflow==2.16.1
+numpy==1.26.4
+email-validator==2.1.1
+
+
+Generate manually using:
+
+pip freeze > requirements.txt

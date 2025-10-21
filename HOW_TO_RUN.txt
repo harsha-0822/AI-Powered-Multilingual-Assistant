@@ -1,0 +1,136 @@
+=========================================
+HOW TO RUN THE SMART EDUBOT PROJECT
+=========================================
+
+Project Name: Smart EduBot – AI-Powered Multilingual Academic Assistant
+Framework: Flask (Python)
+Database: SQLite3
+Language Support: English, Kannada, Hindi, Tamil, Telugu
+
+-----------------------------------------
+1️⃣ PREREQUISITES
+-----------------------------------------
+Before running the project, make sure you have:
+
+• Python 3.8 or above installed
+• pip (Python package manager)
+• Git (optional but recommended)
+• Internet connection (for Googletrans and TensorFlow setup)
+
+-----------------------------------------
+2️⃣ CLONE THE PROJECT
+-----------------------------------------
+Open your terminal or command prompt and run:
+
+git clone https://github.com/harsha-0822/Smart-EduBot-Flask.git
+cd Smart-EduBot-Flask
+
+-----------------------------------------
+3️⃣ CREATE A VIRTUAL ENVIRONMENT
+-----------------------------------------
+To isolate dependencies, create a virtual environment:
+
+python -m venv venv
+venv\Scripts\activate       (For Windows)
+# or
+source venv/bin/activate    (For Linux/Mac)
+
+-----------------------------------------
+4️⃣ INSTALL DEPENDENCIES
+-----------------------------------------
+Install all the required packages using:
+
+pip install -r requirements.txt
+
+If any module fails to install, try installing manually:
+pip install flask googletrans==4.0.0-rc1 tensorflow matplotlib pandas numpy email-validator
+
+-----------------------------------------
+5️⃣ RUN THE APPLICATION
+-----------------------------------------
+Start the Flask server by running:
+
+python app.py
+
+You should see output like:
+ * Running on http://127.0.0.1:5000/
+ * Debug mode: on
+
+-----------------------------------------
+6️⃣ OPEN IN BROWSER
+-----------------------------------------
+After starting the server, open your web browser and visit:
+
+http://127.0.0.1:5000/
+
+-----------------------------------------
+7️⃣ LOGIN CREDENTIALS
+-----------------------------------------
+You can register as a new student or lecturer directly from the login page.
+
+If you already have accounts, use:
+Email: your_registered_email
+Password: your_password
+
+-----------------------------------------
+8️⃣ HOW TO USE THE CHATBOT
+-----------------------------------------
+🧠 The chatbot supports natural-language queries in 5 languages.
+
+For retrieving study materials:
+Format → Semester, Branch, Subject, and Format (PDF/Video/Audio)
+Example:
+ - 5th sem CSE Computer Networks PDF
+ - 1st sem Electronics Physics Video
+ - 6th sem AIML Data Structure Audio
+
+For retrieving timetables:
+Format → Semester, Branch, and Timetable
+Example:
+ - 7th sem CSE timetable
+ - AIML 6th sem timetable
+
+-----------------------------------------
+9️⃣ UPLOADING STUDY MATERIALS
+-----------------------------------------
+1. Go to the upload page (for lecturers).
+2. Choose the branch, semester, subject, and file type.
+3. Upload the PDF, Video, Audio, or add a link.
+4. The chatbot will retrieve this material based on user queries.
+
+-----------------------------------------
+🔟 VIEWING ATTENDANCE, MARKS, AND EVENTS
+-----------------------------------------
+• Attendance and marks can be added and viewed under their respective pages.
+• Events can be added by lecturers and will automatically notify students via email.
+
+-----------------------------------------
+✅ TROUBLESHOOTING
+-----------------------------------------
+• If TensorFlow fails to install → Try upgrading pip:
+  python -m pip install --upgrade pip
+
+• If "googletrans" fails → Use this command:
+  pip install googletrans==4.0.0-rc1
+
+• If Flask doesn’t start → Ensure you’re in the correct directory and the virtual environment is active.
+
+-----------------------------------------
+👨‍💻 DEVELOPER INFO
+-----------------------------------------
+Name: Harsha Vardhan S
+Department: Computer Science & Engineering
+College: City Engineering College
+Project Title: Smart EduBot – AI-Powered Multilingual Assistant
+
+-----------------------------------------
+🎯 NOTE
+-----------------------------------------
+• All uploaded files are stored in: static/uploads/
+• Timetable images are saved as: static/timetable.png
+• Run app.py in debug mode only for development.
+• Before deployment, set debug=False and configure SMTP credentials securely.
+
+=========================================
+END OF DOCUMENT
+=========================================
