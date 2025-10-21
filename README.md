@@ -166,6 +166,4 @@ Department: Computer Science & Engineering
 College: City Engineering College
 Project: AI-Powered Multilingual Assistant (Smart EduBot)
 
-"# AI-Powered-Multilingual-Assistant" 
-"# AI-Powered-Multilingual-Assistant" 
-"# AI-Powered-Multilingual-Assistant" 
+"# AI-Powered-Multilingual-Assistant"  
