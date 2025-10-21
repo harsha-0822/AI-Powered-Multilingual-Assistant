@@ -14,8 +14,6 @@ Timetable creation and visualization using Matplotlib
 
 Attendance and marks management system
 
-Email notifications for new events
-
 Student and lecturer authentication portals
 
 Responsive, modern Bootstrap-based UI
@@ -42,7 +40,7 @@ cd AI-Powered-Multilingual-Assistant
 ### 2. Create a Virtual Environment
 python -m venv venv
 venv\Scripts\activate       # Windows
-# or
+or
 source venv/bin/activate    # Linux/Mac
 
 ### 3. Install Dependencies
@@ -88,9 +86,6 @@ http://127.0.0.1:5000/
 
 ### 📈 Marks Entry
 ![Marks Entry](screenshots/marks_page.png)
-
-### 🤖 Receiving Video as output in Chatbot
-![Receiving Video as output in Chatbot](screenshots/query1_page.png)
 
 ### 🤖 Receiving Video as output in Chatbot
 ![Receiving Video as output in Chatbot](screenshots/query1_page.png)
