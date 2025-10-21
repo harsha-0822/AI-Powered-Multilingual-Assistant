@@ -161,8 +161,9 @@ You can type queries in any of the above languages and get the same results.
 ### 👨‍💻 Developer Information
 
 Name: Harsha Vardhan S M
-Department: Computer Science & Engineering
-College: City Engineering College
-Project: AI-Powered Multilingual Assistant (Smart EduBot)
 
-"# AI-Powered-Multilingual-Assistant"  
+Department: Computer Science & Engineering
+
+College: City Engineering College
+
+Project: AI-Powered Multilingual Assistant (Smart EduBot)
