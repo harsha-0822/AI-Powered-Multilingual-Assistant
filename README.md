@@ -89,23 +89,23 @@ http://127.0.0.1:5000/
 ### 📈 Marks Entry
 ![Marks Entry](screenshots/marks_page.png)
 
-### 🤖 Receving Video as output in Chatbot
-![Receving Video as output in Chatbot](screenshots/query1_page.png)
+### 🤖 Receiving Video as output in Chatbot
+![Receiving Video as output in Chatbot](screenshots/query1_page.png)
 
-### 🤖 Receving Video as output in Chatbot
-![Receving Video as output in Chatbot](screenshots/query1_page.png)
+### 🤖 Receiving Video as output in Chatbot
+![Receiving Video as output in Chatbot](screenshots/query1_page.png)
 
-### 🤖 Receving PDF as output in Chatbot
-![Receving PDF as output in Chatbot](screenshots/query2_page.png)
+### 🤖 Receiving PDF as output in Chatbot
+![Receiving PDF as output in Chatbot](screenshots/query2_page.png)
 
-### 🤖 Receving Audio as output in Chatbot
-![Receving Audio as output in Chatbot](screenshots/query3_page.png)
+### 🤖 Receiving Audio as output in Chatbot
+![Receiving Audio as output in Chatbot](screenshots/query3_page.png)
 
 ### 🕒 Timetable Update
 ![Timetable Update](screenshots/timetable_creation_page.png)
 
-### 🤖 Receving Timetable as output in Chatbot
-![Receving Timetable as output in Chatbot](screenshots/query4_page.png)
+### 🤖 Receiving Timetable as output in Chatbot
+![Receiving Timetable as output in Chatbot](screenshots/query4_page.png)
 
 ## 🧩 Example Chatbot Queries
 
