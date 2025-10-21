@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Class Timetable Management</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+        /* Navy/Gold Theme */
+        --primary-color: #0a4d9a;
+        --primary-dark: #07376d;
+        --accent-color: #f59e0b;
+        --light-bg: #f8f9fa;
+        --light: #ffffff;
+        --dark-text: #2c3e50;
+        --text-secondary: #7f8c8d;
+        --border: #dee2e6;
+    }
+
+    body {
+        background-color: var(--light-bg);
+        font-family: 'Poppins', sans-serif; /* Changed font */
+        color: var(--dark-text);
+    }
+    .navbar {
+        background-color: var(--primary-color);
+        border-radius: 0;
+        border: none;
+        margin-bottom: 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Added shadow */
+    }
+    .navbar-brand {
+        color: var(--light) !important;
+        font-weight: bold;
+        display: flex; /* Added flex */
+        align-items: center; /* Added align-items */
+        gap: 0.5rem; /* Added gap */
+    }
+     .navbar-brand h4 { /* Style h4 if needed */
+        color: var(--light) !important;
+        margin: 0; /* Remove default margin */
+     }
+    .nav.navbar-nav li a {
+        color: var(--light) !important;
+        font-weight: 500; /* Added font-weight */
+        padding-top: 15px; /* Adjust padding */
+        padding-bottom: 15px;
+        transition: background-color 0.3s ease; /* Added transition */
+        border-radius: 4px; /* Added radius */
+        margin: 5px 2px; /* Added margin */
+    }
+    .nav.navbar-nav li a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    /* Style Logout Button */
+    .nav.navbar-nav .btn-logout a {
+        background-color: var(--accent-color);
+        border-radius: 4px;
+        padding: 10px 15px !important; /* Adjust padding */
+        margin-top: 10px; /* Align vertically */
+        margin-bottom: 10px;
+        line-height: 20px; /* Ensure icon and text align */
+    }
+     .nav.navbar-nav .btn-logout a:hover {
+         background-color: #d48c0a; /* Darker gold */
+     }
+
+    .timetable-container {
+        background-color: white;
+        border-radius: 15px; /* Increased radius */
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Enhanced shadow */
+        padding: 30px; /* Increased padding */
+        margin-top: 30px; /* Increased margin */
+    }
+    .timetable-header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 15px; /* Increased padding */
+        border-radius: 8px 8px 0 0; /* Rounded top corners */
+        margin: -30px -30px 20px -30px; /* Adjust negative margin */
+    }
+    .timetable-table {
+        width: 100%;
+        margin-bottom: 0; /* Remove default table margin */
+    }
+    .timetable-table thead th { /* Target thead th */
+        background-color: var(--primary-dark); /* Darker header */
+        color: var(--light);
+        text-align: center;
+        vertical-align: middle !important;
+        border-color: var(--primary-dark); /* Match background */
+    }
+    .timetable-table tbody th { /* Target tbody th (Day column) */
+         background-color: var(--light-bg);
+         font-weight: 600;
+         color: var(--primary-color);
+         vertical-align: middle !important;
+         text-align: center;
+    }
+    .timetable-table td {
+        vertical-align: middle !important;
+        padding: 5px; /* Reduced padding for selects */
+    }
+    .break-cell {
+        background-color: var(--light-bg);
+        text-align: center;
+        font-weight: bold;
+        vertical-align: middle !important;
+        color: var(--text-secondary);
+    }
+    .form-control {
+        border-radius: 8px; /* Consistent radius */
+        border: 1px solid var(--border);
+        box-shadow: none; /* Remove default BS3 shadow */
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        margin-bottom: 0; /* Remove margin as td provides spacing */
+        height: auto; /* Allow auto height */
+        padding: 8px 12px; /* Adjust padding */
+    }
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 4px rgba(10, 77, 154, 0.1);
+    }
+    .btn-submit {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        width: 100%;
+        border-radius: 8px; /* Consistent radius */
+        font-weight: 500; /* Added weight */
+        transition: all 0.3s;
+        padding: 10px 15px; /* Match form control padding */
+    }
+    .btn-submit:hover {
+        background-color: var(--primary-dark);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(10, 77, 154, 0.3);
+    }
+    .select-header {
+        background-color: var(--light-bg); /* Lighter background */
+        padding: 20px;
+        border-radius: 8px; /* Consistent radius */
+        margin-bottom: 20px; /* Increased margin */
+        border: 1px solid var(--border);
+    }
+    .select-header label {
+        font-weight: 500;
+        color: var(--primary-color);
+        margin-bottom: 5px; /* Add space below label */
+    }
+    /* Remove unnecessary height from empty label */
+    .select-header .form-group label[for="&nbsp;"] {
+        display: none;
+    }
+    .select-header .form-group {
+        margin-bottom: 0; /* Remove bottom margin from form group */
+    }
+     /* Style table selects */
+    .timetable-table .form-control {
+         font-size: 12px; /* Smaller font for table selects */
+         padding: 6px 8px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar"> <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"> <i class="fas fa-graduation-cap"></i> City Engineering College
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="javascript:history.back()"><i class="fas fa-arrow-left me-1"></i> Back</a></li>
+        <li class="btn-logout"><a href="/"><i class="fas fa-sign-out-alt me-1"></i> Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="timetable-container">
+    <div class="timetable-header">
+      <h3 class="text-center"><i class="fas fa-calendar-alt me-2"></i> Update Timetable</h3> </div>
+
+    <form action="/timetable" method="post">
+      <div class="row select-header">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="branch">Branch:</label>
+            <select name="branch" class="form-control" id="branch" required>
+              <option value="" disabled selected>Select Branch</option> <option value="CSE">Computer Science & Engineering</option>
+              <option value="ECE">Electronics & Communication Engineering</option>
+              <option value="ME">Mechanical Engineering</option>
+              <option value="CE">Civil Engineering</option>
+              <option value="EE">Electrical Engineering</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="semester">Semester:</label>
+            <select name="sem" class="form-control" id="semester" required>
+              <option value="" disabled selected>Select Semester</option> <option value="1">Semester 1</option>
+              <option value="2">Semester 2</option>
+              <option value="3">Semester 3</option>
+              <option value="4">Semester 4</option>
+              <option value="5">Semester 5</option>
+              <option value="6">Semester 6</option>
+              <option value="7">Semester 7</option>
+              <option value="8">Semester 8</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="submitBtn">&nbsp;</label> <button type="submit" class="btn btn-submit" id="submitBtn"> <i class="fas fa-sync-alt me-2"></i> Update Timetable
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-bordered timetable-table">
+          <thead>
+            <tr>
+              <th>Day/Time</th>
+              <th>9:00 - 9:50</th>
+              <th>9:50 - 10:40</th>
+              <th>10:40 - 11:00</th>
+              <th>11:00 - 11:50</th>
+              <th>11:50 - 12:40</th>
+              <th>12:40 - 1:20</th>
+              <th>1:20 - 2:10</th>
+              <th>2:10 - 3:00</th>
+              <th>3:00 - 3:50</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Monday</th>
+              <td><select name="mon1" class="form-control">
+                <option value="">Select</option>
+                <option value="DSA">DSA</option>
+                <option value="DBMS">DBMS</option>
+                <option value="OS">OS</option>
+                <option value="CN">CN</option>
+                <option value="SE">SE</option>
+                <option value="AI">AI</option>
+              </select></td>
+              <td><select name="mon2" class="form-control">
+                <option value="">Select</option>
+                <option value="DSA">DSA</option>
+                <option value="DBMS">DBMS</option>
+                <option value="OS">OS</option>
+                <option value="CN">CN</option>
+                <option value="SE">SE</option>
+                <option value="AI">AI</option>
+              </select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="mon3" class="form-control">
+                 <option value="">Select</option>
+                 <option value="DSA">DSA</option>
+                 <option value="DBMS">DBMS</option>
+                 <option value="OS">OS</option>
+                 <option value="CN">CN</option>
+                 <option value="SE">SE</option>
+                 <option value="AI">AI</option>
+              </select></td>
+              <td><select name="mon4" class="form-control">
+                 <option value="">Select</option>
+                 <option value="DSA">DSA</option>
+                 <option value="DBMS">DBMS</option>
+                 <option value="OS">OS</option>
+                 <option value="CN">CN</option>
+                 <option value="SE">SE</option>
+                 <option value="AI">AI</option>
+              </select></td>
+              <td class="break-cell">Lunch</td>
+               <td><select name="mon5" class="form-control">
+                 <option value="">Select</option>
+                 <option value="DSA">DSA</option>
+                 <option value="DBMS">DBMS</option>
+                 <option value="OS">OS</option>
+                 <option value="CN">CN</option>
+                 <option value="SE">SE</option>
+                 <option value="AI">AI</option>
+              </select></td>
+               <td><select name="mon6" class="form-control">
+                 <option value="">Select</option>
+                 <option value="DSA">DSA</option>
+                 <option value="DBMS">DBMS</option>
+                 <option value="OS">OS</option>
+                 <option value="CN">CN</option>
+                 <option value="SE">SE</option>
+                 <option value="AI">AI</option>
+              </select></td>
+               <td><select name="mon7" class="form-control">
+                 <option value="">Select</option>
+                 <option value="DSA">DSA</option>
+                 <option value="DBMS">DBMS</option>
+                 <option value="OS">OS</option>
+                 <option value="CN">CN</option>
+                 <option value="SE">SE</option>
+                 <option value="AI">AI</option>
+              </select></td>
+            </tr>
+
+            <tr>
+              <th>Tuesday</th>
+              <td><select name="tue1" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="tue2" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="tue3" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="tue4" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Lunch</td>
+              <td><select name="tue5" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="tue6" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="tue7" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+            </tr>
+
+            <tr>
+              <th>Wednesday</th>
+              <td><select name="wed1" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="wed2" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="wed3" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="wed4" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Lunch</td>
+              <td><select name="wed5" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="wed6" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="wed7" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+            </tr>
+
+             <tr>
+              <th>Thursday</th>
+               <td><select name="thu1" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="thu2" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="thu3" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="thu4" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Lunch</td>
+              <td><select name="thu5" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="thu6" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="thu7" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+            </tr>
+
+             <tr>
+              <th>Friday</th>
+              <td><select name="fri1" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="fri2" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="fri3" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="fri4" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Lunch</td>
+              <td><select name="fri5" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="fri6" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="fri7" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+            </tr>
+
+            <tr>
+              <th>Saturday</th>
+              <td><select name="sat1" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="sat2" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Break</td>
+              <td><select name="sat3" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="sat4" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td class="break-cell">Lunch</td>
+              <td><select name="sat5" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="sat6" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+              <td><select name="sat7" class="form-control"><option value="">Select</option><option value="DSA">DSA</option><option value="DBMS">DBMS</option><option value="OS">OS</option><option value="CN">CN</option><option value="SE">SE</option><option value="AI">AI</option></select></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Study Materials | Faculty Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            /* Updated to Navy/Gold Theme */
+            --primary-color: #0a4d9a;
+            --primary-dark: #07376d;
+            --accent-color: #f59e0b;     /* Gold accent */
+            --light-bg: #f8f9fa;
+            --light: #ffffff;
+            --dark-text: #2c3e50;
+            --border: #dee2e6;
+            --text-secondary: #7f8c8d; /* Added for consistency */
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--dark-text);
+        }
+
+        .navbar {
+            background-color: var(--primary-color);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: var(--light);
+        }
+
+        .navbar-brand h4 {
+            color: var(--light);
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 500;
+            padding: 8px 15px;
+            transition: all 0.3s;
+            border-radius: 4px;
+            margin: 0 0.2rem;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .btn-logout {
+            background-color: var(--accent-color);
+            color: white !important;
+            border: none;
+            border-radius: 4px;
+            padding: 8px 15px;
+        }
+
+        .btn-logout:hover {
+            background-color: #d48c0a;
+            color: white !important;
+        }
+
+        /* Container and Card Styling */
+        .upload-container-wrapper {
+             padding: 40px 0;
+        }
+
+        .upload-container {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .upload-header {
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .upload-header h2 i {
+            margin-right: 10px;
+        }
+        .upload-header p {
+             color: var(--text-secondary);
+        }
+
+        /* Form Styling */
+        .form-label {
+            font-weight: 500;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .form-control, .form-select {
+            margin-bottom: 1.5rem;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 10px 15px;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+            width: 100% !important;
+        }
+
+        .form-control:focus, .form-select:focus {
+             border-color: var(--primary-color);
+             box-shadow: 0 0 0 4px rgba(10, 77, 154, 0.1);
+        }
+
+        textarea.form-control {
+             min-height: 100px;
+        }
+
+        /* Button Group Styling */
+        .btn-group .btn-check:checked + .btn-outline-primary {
+             background-color: var(--primary-color);
+             border-color: var(--primary-color);
+             color: white;
+        }
+        .btn-group .btn-outline-primary {
+             color: var(--primary-color);
+             border-color: var(--primary-color);
+             font-weight: 500;
+        }
+        .btn-group .btn-outline-primary:hover {
+            background-color: rgba(10, 77, 154, 0.1);
+            color: var(--primary-dark);
+        }
+
+        /* Input Group Styling for File/URL */
+        .input-group {
+             margin-bottom: 1.5rem;
+        }
+        .input-group > .form-label {
+            display: block;
+            width: 100%;
+        }
+        .input-group > .form-control {
+             margin-bottom: 0;
+        }
+
+        .btn-upload {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .btn-upload:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(10, 77, 154, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div>
+                    <h4 class="mb-0">City Engineering College</h4>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:history.back()">
+                            <i class="fas fa-arrow-left me-1"></i> Back
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-logout" href="/">
+                            <i class="fas fa-sign-out-alt me-1"></i> Logout
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="upload-container-wrapper">
+        <div class="container">
+            <div class="upload-container">
+                <div class="upload-header">
+                    <h2><i class="fas fa-cloud-upload-alt"></i>Upload Study Material</h2>
+                    <p>Select material type and upload your files or links</p>
+                </div>
+
+                <form id="uploadForm" enctype="multipart/form-data" action="/upload" method="POST">
+                    <div class="mb-3">
+                        <label for="materialTitle" class="form-label">Title</label>
+                        <input type="text" class="form-control" id="materialTitle" name="title" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="materialDescription" class="form-label">Description</label>
+                        <textarea class="form-control" id="materialDescription" name="description" rows="3"></textarea>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="materialBranch" class="form-label">Branch</label>
+                            <select class="form-select" id="materialBranch" name="branch" required>
+                                <option value="" disabled selected>Select Branch</option>
+                                <option value="CSE">Computer Science & Engineering</option>
+                                <option value="ISE">Information Science & Engineering</option>
+                                <option value="ECE">Electronics & Communication Engineering</option>
+                                <option value="AIML">Artificial Intelligence & Machine Learning</option>
+                                </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="materialSemester" class="form-label">Semester</label>
+                            <select class="form-select" id="materialSemester" name="semester" required>
+                                <option value="" disabled selected>Select Semester</option>
+                                <option value="1">Semester 1</option>
+                                <option value="2">Semester 2</option>
+                                <option value="3">Semester 3</option>
+                                <option value="4">Semester 4</option>
+                                <option value="5">Semester 5</option>
+                                <option value="6">Semester 6</option>
+                                <option value="7">Semester 7</option>
+                                <option value="8">Semester 8</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="subject" class="form-label">Subject</label>
+                            <select class="form-select" id="subject" name="subject" required>
+                                <option value="" selected disabled>Select Subject</option>
+                                <option value="M1">Mathematics-I</option>
+                                <option value="CHEM">Engineering Chemistry</option>
+                                <option value="PPS">Programming for Problem Solving</option>
+                                <option value="M2">Mathematics-II</option>
+                                <option value="PHY">Physics</option>
+                                <option value="EVN">Engineering Visualization</option>
+                                <option value="DSA">Data Structures and Algorithms</option>
+                                <option value="COA">Computer Organization</option>
+                                <option value="OOP">Object Oriented Programming</option>
+                                <option value="OS">Operating System</option>
+                                <option value="DBMS">Database Management Systems</option>
+                                <option value="CN">Computer Networks</option>
+                                <option value="SEP">Software Engineering</option>
+                                <option value="FSD">FullStack Development</option>
+                                <option value="CGI">Computer Graphics</option>
+                                <option value="RMI">Research Methodology</option>
+                                <option value="ES">Environmental Studies</option>
+                                <option value="CC">Cloud Computing</option>
+                                <option value="BDA">Big Data Analytics</option>
+                                <option value="AI">Artificial Intelligence</option>
+                                <option value="ML">Machine Learning</option>
+                                </select>
+                        </div>
+                    </div> <div class="mb-4 mt-3">
+                        <label class="form-label d-block">Material Type</label>
+                        <div class="btn-group w-100" role="group">
+                            <input type="radio" class="btn-check" name="material_type" id="typePdf" value="pdf" autocomplete="off" checked>
+                            <label class="btn btn-outline-primary" for="typePdf"><i class="fas fa-file-pdf me-2"></i>PDF</label>
+
+                            <input type="radio" class="btn-check" name="material_type" id="typeVideo" value="video" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="typeVideo"><i class="fas fa-video me-2"></i>Video</label>
+
+                            <input type="radio" class="btn-check" name="material_type" id="typeAudio" value="audio" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="typeAudio"><i class="fas fa-music me-2"></i>Audio</label>
+                        </div>
+                    </div>
+
+                    <div id="inputFieldsContainer">
+                        <div class="input-group" id="pdfInput">
+                            <label for="pdfFile" class="form-label">PDF File</label>
+                            <input type="file" class="form-control" id="pdfFile" name="pdf_file" accept=".pdf">
+                        </div>
+
+                        <div class="input-group" id="videoInput" style="display: none;">
+                            <label for="videoFile" class="form-label">Video File</label>
+                            <input type="file" class="form-control" id="videoFile" name="video_file" accept="video/*">
+                        </div>
+
+                        <div class="input-group" id="audioInput" style="display: none;">
+                            <label for="audioFile" class="form-label">Audio File</label>
+                            <input type="file" class="form-control" id="audioFile" name="audio_file" accept="audio/*">
+                        </div>
+
+                        <div class="input-group" id="linkInput" style="display: none;">
+                            <label for="resourceUrl" class="form-label">Resource URL</label>
+                            <input type="url" class="form-control" id="resourceUrl" name="url" placeholder="https://example.com">
+                            <small class="text-muted w-100 d-block mt-1">Enter a valid URL (YouTube, website, etc.)</small>
+                        </div>
+                    </div>
+
+                    <div class="d-grid mt-4">
+                        <button type="submit" class="btn btn-upload">
+                            <i class="fas fa-upload me-2"></i>Upload Material
+                        </button>
+                    </div>
+                </form>
+
+                {% if message %}
+                <div class="alert alert-{{ 'success' if 'successfully' in message else 'danger' }} mt-4 text-center" role="alert">
+                    {{ message }}
+                </div>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // REMOVED the complex subjectData and updateSubjects function
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get references to elements needed for material type switching
+            const typeRadios = document.querySelectorAll('input[name="material_type"]');
+            const pdfInput = document.getElementById('pdfInput');
+            const videoInput = document.getElementById('videoInput');
+            const audioInput = document.getElementById('audioInput');
+            const linkInput = document.getElementById('linkInput');
+            const pdfFile = document.getElementById('pdfFile');
+            const videoFile = document.getElementById('videoFile');
+            const audioFile = document.getElementById('audioFile');
+            const resourceUrl = document.getElementById('resourceUrl');
+
+            // Function to show/hide and manage required/disabled state for material type
+            function updateInputFields() {
+                const selectedType = document.querySelector('input[name="material_type"]:checked').value;
+
+                // Hide all first
+                pdfInput.style.display = 'none';
+                videoInput.style.display = 'none';
+                audioInput.style.display = 'none';
+                linkInput.style.display = 'none';
+
+                // Disable all and remove required
+                pdfFile.disabled = true;
+                videoFile.disabled = true;
+                audioFile.disabled = true;
+                resourceUrl.disabled = true;
+                pdfFile.required = false;
+                videoFile.required = false;
+                audioFile.required = false;
+                resourceUrl.required = false;
+
+                // Show and enable/require the selected one
+                switch(selectedType) {
+                    case 'pdf':
+                        pdfInput.style.display = 'block';
+                        pdfFile.disabled = false;
+                        pdfFile.required = true;
+                        break;
+                    case 'video':
+                        videoInput.style.display = 'block';
+                        videoFile.disabled = false;
+                        videoFile.required = true;
+                        break;
+                    case 'audio':
+                        audioInput.style.display = 'block';
+                        audioFile.disabled = false;
+                        audioFile.required = true;
+                        break;
+                    case 'link':
+                        linkInput.style.display = 'block';
+                        resourceUrl.disabled = false;
+                        resourceUrl.required = true;
+                        break;
+                }
+            }
+
+            // Add event listeners to radio buttons
+            typeRadios.forEach(radio => {
+                radio.addEventListener('change', updateInputFields);
+            });
+
+            // Initial call to set the correct input field visibility and state
+            updateInputFields();
+
+            // Handle form submission (this part is mostly for client-side validation if needed)
+            document.getElementById('uploadForm').addEventListener('submit', function(e) {
+                console.log('Form submitting...');
+            });
+        });
+    </script>
+</body>
+</html>

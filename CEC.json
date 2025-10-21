@@ -1,0 +1,1877 @@
+{
+    "intents": [
+        {
+            "tag": "City_Engineering_College",
+            "patterns": [
+                "What is City Engineering College?",
+                "What is City Engineering College?",
+                "What is CEC?",
+                "What is CEC?",
+                "CEC?",
+                "CEC?",
+                "Can you tell me about City Engineering College?",
+                "Tell me about CEC",
+                "about City Engineering College",
+                "What is the history of City Engineering College?",
+                "Can you provide some information about the establishment of CEC?",
+                "Tell me about the founding of City Engineering College",
+                "about CEC history and establishment",
+                "Can you provide information about the City Engineering College?",
+                "Can you provide information about CEC?",
+                "Tell me about City Engineering College",
+                "Tell me about CEC",
+                "about City Engineering College",
+                "about City Engineering College",
+                "about CEC",
+                "about CEC",
+                "Tell me about the City Engineering College",
+                "Tell me about the CEC"
+            ],
+            "responses": [
+                "City Engineering College (CEC), established under Jayanagar Education Society by Dr K.R Paramahamsa, Chairman in the year 2001. CEC is one of the most sought colleges by students from across the country for Engineering and Management Education. The college believe in providing a high-quality education to the prospective professionals of the country for which necessary quality bench marks have been put in place, in the areas of faculty recruitment, training and development, teaching and learning process, student’s grooming, external academic audits and feedback system for academic enhancement."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "institute_vision",
+            "patterns": [
+                "What is the vision of City Engineering College?",
+                "What is the vision of CEC?",
+                "What does City Engineering College aim to achieve?",
+                "Can you tell me about the vision of CEC?",
+                "Tell me about the vision of City Engineering College.",
+                "What is the vision statement of City Engineering College?",
+                "What does CEC aspire to accomplish?",
+                "Can you provide information about City Engineering College's vision?",
+                "What is the long-term vision of City Engineering College?",
+                "about the vision of City Engineering College",
+                "about CEC's vision",
+                "CEC's vision",
+                "CEC's vision",
+                "vision of CEC",
+                "vision of CEC",
+                "vision of City Engineering College",
+                "vision of City Engineering College",
+                "Tell me about City Engineering College's vision."
+            ],
+            "responses": [
+                "Making Remarkable Contribution by Disseminating Knowledge on Emerging Trends in Engineering and Technology through various Programmes, Innovation and Research so as to Excel in Quality both at National and International level and to provide Career Guidance & Training for Employment."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CEC_institute_mission",
+            "patterns": [
+                "What is the mission of City Engineering College?",
+                "What is the mission of CEC?",
+                "Tell me about the mission of City Engineering College.",
+                "What are the objectives of City Engineering College?",
+                "What are the goals of City Engineering College?",
+                "What is the mission statement of CEC?",
+                "Can you tell me about the mission statement of City Engineering College?",
+                "Can you provide information about City Engineering College's mission?",
+                "What does CEC aim to achieve?",
+                "Tell me about CEC's long-term goals.",
+                "about the mission of City Engineering College",
+                "about CEC's mission",
+                "CEC's mission",
+                "CEC's mission",
+                "mission of CEC",
+                "mission of CEC",
+                "mission of City Engineering College",
+                "mission of City Engineering College",
+                "City Engineering College's mission",
+                "Tell me about City Engineering College's mission.",
+                "About City Engineering College's mission",
+                "What is City Engineering College committed to?"
+            ],
+            "responses": [
+                "To encourage Knowledge Acquisition and Foster Innovation & Research, To Prepare Students for Immediate Employment, leading to Technological and Socio-economic growth and Provide Guidance for a Productive Career under various programmes."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "principal",
+            "patterns": [
+                "what is the name of principal",
+                "what is the name of the principal",
+                "what is name of principal",
+                "what is name of the principal",
+                "what is principal name",
+                "what is the principal name",
+                "principal name",
+                "principal",
+                "name of the principal",
+                "name of principal",
+                "Who is college principal",
+                "Who is principal",
+                "Who is the principal of City Engineering College?",
+                "Who is the principal of CEC?",
+                "Can you tell me the name of the principal of City Engineering College?",
+                "What is the name of the principal of City Engineering College?",
+                "What is the name of the principal of CEC?",
+                "Can you provide the name of the principal of City Engineering College?",
+                "Can you provide the name of the principal of CEC?",
+                "Who is the principal of CEC?",
+                "Who is the principal of City Engineering College?"
+            ],
+            "responses": [
+                "Dr. S Karunakara is the college principal."
+            ],
+            "context_set": ""
+        },  
+        {
+            "tag": "chairman",
+            "patterns":[
+                "Who is College Chairman?",
+                "Who is the CEC's Chairman?",
+                "who is City Engineering College's Chairman",
+                "What is the name of the Chairman",
+                "what is the name of the CEC's Chairman?",
+                "What is the name of the City Engineering College's Chairman",
+                "Can you provide the name of the Chairman of City Engineering College?",
+                "Can you provide the name of the Chairman of CEC?",
+                "Can you tell me the name of the Chairman of City Engineering College?"
+            ],
+            "responses":[
+                "Dr. K. R. Paramahamsa is the College's Chairman"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "chairperson",
+            "patterns":[
+                "Who is College Chairperson?",
+                "Who is the CEC's Chairperson?",
+                "who is City Engineering College's Chairperson",
+                "What is the name of the Chairperson?",
+                "what is the name of the CEC's Chairperson?",
+                "What is the name of the City Engineering College's Chairperson",
+                "Can you provide the name of the Chairperson of City Engineering College?",
+                "Can you provide the name of the Chairperson of CEC?",
+                "Can you tell me the name of the Chairperson of City Engineering College?"
+            ],
+            "responses":[
+                "Dr. K. R. Paramahamsa is the College's Chairperson"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "vice_chairperson",
+            "patterns":[
+                "Who is College Vice Chairperson?",
+                "Who is the CEC's Vice Chairperson?",
+                "who is City Engineering College's Vice Chairperson",
+                "What is the name of the Vice Chairperson?",
+                "what is the name of the CEC's Vice Chairperson?",
+                "What is the name of the City Engineering College's Vice Chairperson",
+                "Can you provide the name of the Vice Chairperson of City Engineering College?",
+                "Can you provide the name of the Vice Chairperson of CEC?",
+                "Can you tell me the name of the Vice Chairperson of City Engineering College?"
+            ],
+            "responses":[
+                "Mrs. Geetha Paramahamsa is the College's Chairperson"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "vice_chairman",
+            "patterns":[
+                "Who is College Vice Chairman?",
+                "Who is the CEC's Vice Chairman?",
+                "who is City Engineering College's Vice Chairman",
+                "What is the name of the Vice Chairman?",
+                "what is the name of the CEC's Vice Chairman?",
+                "What is the name of the City Engineering College's Vice Chairman",
+                "Can you provide the name of the Vice Chairman of City Engineering College?",
+                "Can you provide the name of the Vice Chairman of CEC?",
+                "Can you tell me the name of the Vice Chairman of City Engineering College?"
+            ],
+            "responses":[
+                "Mrs. Geetha Paramahamsa is the College's Chairman"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CEC_institute_highlights",
+            "patterns": [
+                "What are the highlights of City Engineering College?",
+                "What are the highlights of CEC?",
+                "Can you tell me about the notable features of City Engineering College?",
+                "Can you tell me about the notable features of CEC?",
+                "What makes City Engineering College stand out?",
+                "What makes CEC stand out?",
+                "Highlight the key aspects of City Engineering College.",
+                "Highlight the key aspects of CEC.",
+                "What are the strengths of City Engineering College?",
+                "What are the strengths of CEC?",
+                "What distinguishes City Engineering College from other institutions?",
+                "What distinguishes CEC from other institutions?",
+                "Tell me about the special features of City Engineering College.",
+                "Tell me about the special features of CEC.",
+                "highlights",
+                "Highlights",
+                "highlights of the college",
+                "highlights of college"
+            ],
+            "responses": [
+                "City Engineering College (CEC) in Bangalore is known for its strong academic program, good infrastructure, and supportive faculty. The college offers various undergraduate and postgraduate engineering programs, including B.E. in Artificial Intelligence and Machine Learning. Key highlights include well-equipped labs, knowledgeable faculty, and opportunities for internships and placements"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "contact_CEC_institute",
+            "patterns": [
+                "contact info",
+                "how to contact college",
+                "college telephone number",
+                "college number",
+                "What is your contact no",
+                "Contact number?",
+                "how to call you",
+                "College phone no?",
+                "how can i contact you",
+                "Can i get your phone number",
+                "how can i call you",
+                "phone number",
+                "phone no",
+                "call",
+                "give me college number",
+                "give me number",
+                "give me contact number",
+                "What is the phone number of City Engineering College?",
+                "What is the phone number of CEC?",
+                "How can I contact City Engineering College?",
+                "How can I contact CEC?",
+                "What is the contact information for City Engineering College?",
+                "What is the contact information for CEC?",
+                "Can you provide me with the contact details of City Engineering College?",
+                "Can you provide me with the contact details of CEC?",
+                "I need to get in touch with City Engineering College. How do I do that?",
+                "I need to get in touch with CEC. How do I do that?",
+                "What are the ways to reach out to City Engineering College?",
+                "What are the ways to reach out to CEC?",
+                "Contacting City Engineering College",
+                "Contacting CEC",
+                "How do I contact City Engineering College for admissions?",
+                "How do I contact CEC for admissions?",
+                "I have some queries. How can I reach City Engineering College?",
+                "I have some queries. How can I reach CEC?",
+                "Is there a phone number I can call to reach City Engineering College?",
+                "Is there a phone number I can call to reach CEC?"
+            ],
+            "responses": [
+                "You can contact at 9880411361, 9880411363, 9880411364, 7349032929"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "email_CEC_institute",
+            "patterns": [
+                "email info",
+                "give me college email",
+                "give me college email-id",
+                "give me college email id",
+                "college email-id",
+                "college email id",
+                "college email",
+                "email",
+                "What is the email of City Engineering College?",
+                "What is the email of CEC",
+                "What is the email of college",
+                "What is the email-id of City Engineering College?",
+                "What is the email-id of CEC",
+                "What is the email-id of college",
+                "What is the email id of City Engineering College?",
+                "What is the email id of CEC",
+                "What is the email id of college",
+                "What is the email-id for City Engineering College?",
+                "What is the email  for City Engineering College?",
+                "What is the email id for City Engineering College?"
+            ],
+            "responses": [
+                "You can email us to any of these at principal@cityengineeringcollege.ac.in, info@cityengineeringcollege.ac.in and admissions@cityengineeringcollege.ac.in"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "where is the college located",
+                "college is located at",
+                "where is college",
+                "where is college located",
+                "address of college",
+                "how to reach college",
+                "college location",
+                "college address",
+                "where is the college",
+                "how can I reach college",
+                "whats is the college address",
+                "what is the address of college",
+                "address",
+                "location",
+                "Where is City Engineering College located?",
+                "Where is CEC located?",
+                "Where is City Engineering College",
+                "Where is CEC?",
+                "Where is CEC",
+                "Can you tell me the address of City Engineering College?",
+                "What is the location of City Engineering College?",
+                "Where can I find City Engineering College?",
+                "What is the address of City Engineering College?",
+                "Location of City Engineering College",
+                "Where is City Engineering College situated?"
+            ],
+            "responses": [
+                "You can find City Engineering College at Doddakallasandra, Off Kanakapura Road, Next to Gokulam Apartment, Bangalore - 560 062"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up",
+                "how are ya",
+                "whatsup",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Hello there",
+                "Hey there",
+                "Greetings",
+                "Howdy",
+                "Yo",
+                "Hola"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "talk to you later",
+                "tyyl",
+                "i got to go",
+                "gtg",
+                "See you later",
+                "Bye",
+                "Take care",
+                "Until next time",
+                "Farewell",
+                "Catch you later",
+                "Bye for now",
+                "I'm off",
+                "Gotta go"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Goodbye!",
+                "Come back soon",
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! Until next time!",
+                "Take care! Goodbye!",
+                "Catch you later! Bye!",
+                "Bye for now! Have a great day!",
+                "Goodbye! Don't hesitate to return if you have more questions!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "name",
+                "your name",
+                "do you have a name",
+                "what are you called",
+                "what is your name",
+                "what should I call you",
+                "whats your name?",
+                "what are you",
+                "who are you",
+                "who is this",
+                "what am i chatting to",
+                "who am i taking to",
+                "what are you"
+            ],
+            "responses": [
+                "You can call me SmartEduBot",
+                "I'm CEC's Enquiry Chatbot",
+                "I'm CEC'C Chatbot known as SmartEduBot"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "timings of the college",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "hours of operation",
+                "when is the college open",
+                "college timing",
+                "what about college timing",
+                "is college open on saturday",
+                "tell something about college timing",
+                "what is the college  hours",
+                "when should i come to college",
+                "when should i attend college",
+                "what is my college time",
+                "college timing",
+                "timing college",
+                "college timings"
+            ],
+            "responses": [
+                "The college is open from 8:30 AM to 4:00 PM, Monday to Friday."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "is there any library",
+                "library facility",
+                "library facilities",
+                "do you have library",
+                "does the college have library facility",
+                "college library",
+                "where can i get books",
+                "book facility",
+                "Where is library",
+                "Library",
+                "Tell me about library",
+                "how many libraries"
+            ],
+            "responses": [
+                "City Engineering College has a huge and spacious library. The purpose of the library and information centre is to provide accessible quality technological, general, and professional educational resources and effective services to support the needs of CEC students and Faculty."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "random",
+            "patterns": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I am not program for this please ask appropriate query",
+                "That's really kind of you to say. I appreciate your positive feelings. How can I help you today?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "swear",
+            "patterns": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "please use appropriate language",
+                "Maintaining decency would be appreciated",
+                "Hey, I understand you might be feeling frustrated right now. Is there something specific I can help you with?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "I am glad I helped you",
+                "welcome, anything else i can assist you with?",
+                "You're most welcome! Is there anything else I can do for you right now?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "what can you do",
+                "what are the thing you can do",
+                "things you can do",
+                "what can u do for me",
+                "how u can help me",
+                "why i should use you"
+            ],
+            "responses": [
+                "I can answer low to intermediate-level questions regarding the college.",
+                "You can ask me questions about the college, and I will try to answer them"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "ragging",
+                "is ragging practice active in college",
+                "does college have any antiragging facility",
+                "is there any ragging cases",
+                "is ragging done here",
+                "ragging juniors",
+                "ragging history",
+                "ragging incidents"
+            ],
+            "responses": [
+                "We are proud to tell you that our college provides a ragging-free environment, and we have strict rules against it."
+            ]
+        },
+        {
+            "tag": "random_student_questions",
+            "patterns": [
+                "Can you explain [topic] to me?",
+                "I'm curious about [topic], can you tell me more?",
+                "What's the significance of [concept]?",
+                "How does [process] work?",
+                "Do you have any tips for studying [subject]?",
+                "What are some common mistakes students make in [subject]?",
+                "Can you recommend any resources for learning [topic]?",
+                "I'm struggling with [topic], do you have any advice?",
+                "What career paths can I pursue with a degree in [field]?",
+                "What are some interesting research topics in [subject]?",
+                "Can you recommend any extracurricular actiCECies related to [field]?",
+                "How can I improve my [skill]?",
+                "What are the current trends in [industry]?",
+                "Can you explain the difference between [concept A] and [concept B]?",
+                "I'm interested in [topic], where should I start?",
+                "What are some common interview questions for [profession]?",
+                "What are the prerequisites for [course/program]?",
+                "Can you suggest some study techniques for [subject]?",
+                "How do I stay motivated while studying?",
+                "What are some good networking strategies for students?",
+                "What are the benefits of joining [club/organization]?",
+                "How can I manage my time effectively as a student?",
+                "What are the key skills employers look for in [industry]?",
+                "How can I build a strong resume as a student?",
+                "Can you explain the concept of [theory] in simple terms?",
+                "What are some popular certifications in [field]?",
+                "What are the current challenges facing [industry/sector]?",
+                "What are some good ways to balance academics and extracurricular actiCECies?",
+                "Can you recommend any online courses for [subject]?",
+                "What are some potential internship opportunities for students in [field]?",
+                "How can I prepare for standardized tests like the SAT or GRE?",
+                "What are some common misconceptions about [topic]?",
+                "Can you suggest some ways to overcome procrastination?",
+                "What are the benefits of participating in research projects?",
+                "I'm interested in studying abroad, can you provide some guidance?",
+                "What are the best practices for writing research papers?",
+                "How can I build a strong professional network while still in school?",
+                "Can you explain how to use [software/tool]?",
+                "What are some good strategies for preparing for exams?",
+                "What are some key concepts I should know before starting [course/program]?",
+                "Can you recommend any books or articles for further reading on [topic]?"
+            ],
+            "responses": [
+                "This type of question is best handled by our General chatbot. Please use the General chatbot for academic or subject-related queries."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Admission",
+            "patterns": [
+                "Details of the admission Incharge?",
+                "Experience of the admission Incharge?",
+                "about admission Incharge?",
+                "Who is the main Incharge for the admission process?",
+                "Can i know the name of the admission Incharge?",
+                "what is the name of admission Incharge?",
+                "who handles the admission process?",
+                "how much experience did the admission incharge has?"
+            ],
+            "responses": [
+                "Welcome to City Engineering College. Mrs. Shashi is currently working as the Admission Head at City Engineering College. Prior to taking on this responsibility..."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Seats",
+            "patterns": [
+                "Joining options?",
+                "How many options are there to join for this college?",
+                "Can we join through CET?",
+                "Can we join through management?",
+                "Can we join through Comed-k?",
+                "How many options are there to join for 1st year?"
+            ],
+            "responses": [
+                "Admission to the first-year B.E. program at City Engineering College is available through three pathways: KCET (for Karnataka students), COMEDK (for students from other states), and Management Quota. The seat allocation is typically 50% for KCET, 25% for COMEDK, and 25% for Management Quota, following the guidelines set by the Government of Karnataka and VTU."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Education and eligibility",
+            "patterns": [
+                "eduaction required to join for the couse?",
+                "how much percentage should be?",
+                "can students join with one inter backlog?",
+                "How much percentage should be there only for PCMB?",
+                "What is the percentage in order to join for this college?",
+                "What are the extra subjects other than PCMB?",
+                "Eligibility criteria for 1st year?",
+                "What are the eligibility criteria for engineering courses?",
+                "What qualifications are needed to apply for B.E.?",
+                "Is a science background mandatory for admission?",
+                "Can I apply if I studied in CBSE or ICSE board?",
+                "What subjects should I have studied in 12th to get into engineering?",
+                "What is the minimum percentage required in 12th?",
+                "Is English compulsory for admission?",
+                "Do you accept diploma students for lateral entry?",
+                "Is there any relaxation for SC/ST students?",
+                "Can I apply with a backlog in 12th?",
+                "Are there any entrance exams required for joining?",
+                "Is PCM compulsory for engineering admission?",
+                "What is the eligibility for management quota?",
+                "Can commerce students apply for engineering?",
+                "What marks are needed in Physics and Math?"
+                
+            ],
+            "responses": [
+                "To be eligible for admission into the first-year B.E. program at City Engineering College, candidates must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with one of the following: Chemistry, Biotechnology, Computer Science, Biology, or Electronics. A minimum aggregate of 45% marks is required (40% for SC/ST candidates from Karnataka). English should have been studied as one of the languages. Admission is based on performance in entrance examinations like KCET or COMEDK, as per the norms specified by the Government of Karnataka and VTU."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Eligibility for 2nd year",
+            "patterns": [
+                "eduaction required to join for 2nd year?",
+                "how much percentage should be?",
+                "How much percentage should be there only for PCMB?",
+                "What is the percentage in order to join for 2nd year?",
+                "eligibility Criteria for SC/ST?",
+                "eligibility Criteria for OBC?",
+                "how much percentage is ok if we clear any given exam in your college?",
+                "What is the eligibility for lateral entry?",
+                "Can diploma holders join directly in 2nd year?",
+                "Is lateral entry available in your college?",
+                "What is the percentage required for diploma students?",
+                "What is the cut-off for 2nd-year admission?",
+                "Is bridge course required for 2nd-year admission?",
+                "Can I join 2nd year with 45% in diploma?",
+                "Are SC/ST students eligible for lateral entry?",
+                "Do you accept diploma students in City Engineering College?",
+                "How can I join directly in 2nd year B.E.?",
+                "Is lateral entry allowed through management quota?",
+                "What are the criteria for diploma to degree admission?",
+                "Is CET required for lateral entry?",
+                "Can I join without writing COMEDK or CET?",
+                "Is there any entrance exam for 2nd-year B.E.?"
+            ],
+            "responses": [
+                "Candidates who have completed a Diploma in Engineering or an equivalent qualification from a recognized institution are eligible for lateral entry into the second year of the B.E. program at City Engineering College. General category students must have secured a minimum of 50% aggregate marks in their final year diploma examination. For SC/ST and OBC candidates, a minimum of 45% aggregate marks is acceptable. Candidates with marks below the specified criteria may be required to clear bridge courses as prescribed by Visvesvaraya Technological University (VTU)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for CSE",
+            "patterns": [
+                "What is the fee for Computer SCience and Engineering through CET?",
+                "What is the fee for Computer SCience and Engineering through Comed-K?",
+                "What is the fee for Computer SCience and Engineering through Management?",
+                "how much is the fee for computer Science and Engineering?",
+                "how much will be the fee for computer Science and Engineering under CET quota?",
+                "how much will be the fee for computer Science and Engineering under Comed-k quota?",
+                "how much will be the fee for computer Science and Engineering under management quota?",
+                "what is the fee for computer Science and Engineering?",
+                "tell me the fee for computer Science and Engineering Cource?",
+                "tell me the fee for computer Science and Engineering Cource under CET Quota?",
+                "tell me the fee for computer Science and Engineering Cource under Comed-k?",
+                "tell me the fee for computer Science and Engineering Cource under management quota?",
+                "What is the fee for CS?"
+            ],
+            "responses": [
+                "91060(CET)  173968(Comed-k)  178720(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for ISE",
+            "patterns": [
+                "What is the fee for Information SCience and Engineering through CET?",
+                "What is the fee for Information SCience and Engineering through Comed-K?",
+                "What is the fee for Information SCience and Engineeringthrough Management?",
+                "how much is the fee for Information Science and Engineering?",
+                "how much will be the fee for Information Science and Engineering under CET quota?",
+                "how much will be the fee for Information Science and Engineering under Comed-k quota?",
+                "how much will be the fee for Information Science and Engineering under management quota?",
+                "what is the fee for Information Science and Engineering?",
+                "tell me the fee for Information Science and Engineering Cource?",
+                "tell me the fee for Information Science and Engineering Cource under CET Quota?",
+                "tell me the fee for Information Science and Engineering Cource under Comed-k?",
+                "tell me the fee for Information Science and Engineering Cource under management quota?",
+                "What is the fee for IS?"
+            ],
+            "responses": [
+                "91060(CET)  173968(Comed-k)  178720(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for AIML",
+            "patterns": [
+                "What is the fee for AIML through CET?",
+                "What is the fee for AIML through Comed-K?",
+                "What is the fee for AIMLthrough Management?",
+                "how much is the fee for AIML?",
+                "how much will be the fee for AIML under CET quota?",
+                "how much will be the fee for AIML under Comed-k quota?",
+                "how much will be the fee for AIML under management quota?",
+                "what is the fee for AIML Science?",
+                "tell me the fee for AIML Cource?",
+                "tell me the fee for AIML under CET Quota?",
+                "tell me the fee for AIML under Comed-k?",
+                "tell me the fee for AIML under management quota?"
+            ],
+            "responses": [
+                "91060(CET)  173968(Comed-k)  178720(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for ECE",
+            "patterns": [
+                "What is the fee for Electronics and Communication Engineering through CET?",
+                "What is the fee for Electronics and Communication Engineering through Comed-K?",
+                "What is the fee for Electronics and Communication Engineering through Management?",
+                "how much is the fee for Electronics and Communication Engineering?",
+                "how much will be the fee for Electronics and Communication Engineering under CET quota?",
+                "how much will be the fee for Electronics and Communication Engineering under Comed-k quota?",
+                "how much will be the fee for Electronics and Communication Engineering under management quota?",
+                "what is the fee for Electronics and Communication Engineering?",
+                "tell me the fee for Electronics and Communication Engineering Cource?",
+                "tell me the fee for Electronics and Communication Engineering under CET Quota?",
+                "tell me the fee for Electronics and Communication Engineering under Comed-k?",
+                "tell me the fee for Electronics and Communication Engineering under management quota?",
+                "What is the fee for ECE?"
+            ],
+            "responses": [
+                "91060(CET)  173968(Comed-k)  178720(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for Mechanical",
+            "patterns": [
+                "What is the fee for Mechanical Engineering through CET?",
+                "What is the fee for Mechanical Engineering through Comed-K?",
+                "What is the fee for Mechanical Engineering through Management?",
+                "how much is the fee for Mechanical Engineering?",
+                "how much will be the fee for Mechanical Engineering under CET quota?",
+                "how much will be the fee for Mechanical Engineering under Comed-k quota?",
+                "how much will be the fee for Mechanical Engineering under management quota?",
+                "what is the fee for Mechanical Engineering?",
+                "tell me the fee for Mechanical Engineering Cource?",
+                "tell me the fee for Mechanical Engineering under CET Quota?",
+                "tell me the fee for Mechanical Engineering under Comed-k?",
+                "tell me the fee for Mechanical v under management quota?",
+                "What is the fee for ME?"
+            ],
+            "responses": [
+                "91060(CET)  173968(Comed-k)  94060(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Fee for Civil",
+            "patterns": [
+                "What is the fee for Civil Engineering through CET?",
+                "What is the fee for Civil Engineering through Comed-K?",
+                "What is the fee for Civil Engineering through Management?",
+                "how much is the fee for Civil Engineering?",
+                "how much will be the fee for Civil Engineering under CET quota?",
+                "how much will be the fee for Civil Engineering under Comed-k quota?",
+                "how much will be the fee for Civil Engineering under management quota?",
+                "what is the fee for Civil Engineering?",
+                "tell me the fee for Civil Engineering Cource?",
+                "tell me the fee for Civil Engineering under CET Quota?",
+                "tell me the fee for Civil Engineering under Comed-k?",
+                "tell me the fee for Civil Engineering under management quota?"
+            ],
+            "responses": [
+                "91060(CET)  149020(Comed-k)  94060(Management)  for further details go through this link https://cityengineeringcollege.ac.in/admissions/fee-structure/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Campus Rules",
+            "patterns": [
+                "Campus Reporting time?",
+                "At what time the college will open?",
+                "morning at what time the college will open?",
+                "at what time the classes will start?",
+                "When should students arrive on campus?",
+                "At what time are students expected to report to campus?",
+                "What time do students need to be on campus by?",
+                "What time is the recommended arrival for students?"
+            ],
+            "responses": [
+                "City Engineering College enforces rules such as maintaining academic integrity, punctuality, and proper behavior, while prohibiting substance abuse and ragging. Students must adhere to a dress code, respect campus facilities, follow general discipline guidelines, and ensure they report by 8:30 AM."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "other Rules",
+            "patterns": [
+                "other rules in the campus?",
+                "is ID cards are campulsary?",
+                "what are campus rules?",
+                "tell me about your campus rules?",
+                "Can you provide an overview of the campus rules for students?",
+                "What are the rules and regulations on your college campus?",
+                "How are campus rules?",
+                "is smokimg and drinking allowed?",
+                "can students smoke and drink in the college?"
+            ],
+            "responses": [
+                "Attending regular classes is mandatory for all students, from the first day of the semester to the last day. Students must carry their ID cards at all times while on campus. The following issues should be reported to the HOD or college office without delay: Loss of ID card; Loss of library card; Change of address; Change of contact number. Mobile phones are strictly prohibited on campus. Once confiscated, they will not be returned. Smoking, chewing pan masala/ghutka, and consuming alcohol or drugs of any kind on campus is strictly forbidden."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Vehicles",
+            "patterns": [
+                "Where are vehicles allowed to park on campus?",
+                "Could you provide information on designated parking areas for vehicles?",
+                "where vehicles can be parked?",
+                "which side the vehicle parking is?",
+                "is that mandatory to use helmate for colllege?",
+                "is vehicles allowerd for college?",
+                "can we travel by our own vehicles is that allowed?"
+            ],
+            "responses": [
+                "Yes vehicles are allowed. Students are advised to park vehicles in the right side of the college(specified area) and its mandatory to wear helmets while riding two-wheeler vehicles."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Application Form",
+            "patterns": [
+                "What are the details requried for admission?",
+                "What documents requried for admission?",
+                "What information or documents are needed for the admission process?",
+                "Could you provide a list of the required details for applying to the college?",
+                "What kind of information should applicants have prepared when applying for admission?",
+                "can i see the apllication form?",
+                "can u provide the apllication form?"
+            ],
+            "responses": [
+                "To know the details required for admission, please go through this link: https://cityengineeringcollege.ac.in/admissions/application-form/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Online Application Form",
+            "patterns": [
+                "link for online applications?",
+                "can u provide the link for online application?",
+                "can i get the online application form?",
+                "is online application form available?",
+                "where i can get online appllication form provide respective link?",
+                "please provide the online application form?"
+            ],
+            "responses": [
+                "Please go through this link: https://cityengineeringcollege.ac.in/admissions/apply-now/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 1",
+            "patterns": [
+                "Do we have a placement department for City Engineering College?",
+                "Tell me about your placement department?",
+                "What happens in the placement department of City Engineering College?",
+                "What are the facilities of the placement department in City Engineering College?",
+                "What kind of placements does your college handle?",
+                "What facilities are provided to students by the placement department?",
+                "What are the infrastructures provided by the placement department?"
+            ],
+            "responses": [
+                "Welcome to the Training and Placement Department of City Engineering College. It is the interface between the industry and the institute, providing a platform for industries to recruit the right talent and kickstart a dream career for students. The department provides job opportunities to graduating students through the campus recruitment process, which typically begins in the pre-final year and continues until the end of the course and beyond. The department handles all aspects of placements, including contacting companies, managing logistics for pre-placement talks, assessments (both online and offline), selections, and finally collecting employer feedback. It organizes career guidance and industry-specific training programs. The Department of Training and Placement has well-furnished and air-conditioned interview cabins, group discussion spaces, the Director's room, the Assistant Placement Officer's room, LCD displays for notifications, restrooms, and drinking water facilities.    "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 2",
+            "patterns": [
+                "Does your placement department have a vision and mission?",
+                "What is the vision of the placement department?",
+                "What is the mission of the placement department?",
+                "What are the motivations of the placement department?",
+                "How do students get motivated for placements?",
+                "What are the goals of the placement department?",
+                "What is the aim of the placement department?",
+                "What are the ambitions of the placement cell?",
+                "What kind of vision and mission does your placement cell follow?"
+            ],
+            "responses": [
+                "Vision: To ensure employment, skill enhancement, and guidance on higher education. Mission: To train students in aptitude, technical, and soft skills; to build and maintain strong industry-institute interactions; to facilitate the end-to-end recruitment process; to conduct career guidance programs; and to assist the Industry-Institute Interaction Cell in enhancing internship opportunities."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 3",
+            "patterns": [
+                "Who are the functional members of the placement department?",
+                "Who are the functional heads of the training department in CEC?",
+                "Name the different coordinators of the placement department from different branches?",
+                "List the names of the training coordinators in CEC?",
+                "Mention the placement leaders for every branch in CEC?"
+            ],
+            "responses": [
+                "Dr. Mohammed Mathenulla  Shariff  (Matheen) is the Placement Officer."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 4",
+            "patterns": [
+                "Who is the placement officer of CEC?",
+                "Who handles all the coordinators of placement training in CEC?",
+                "What is the officer of placement training in CEC?",
+                "Who is the placement officer?"
+            ],
+            "responses": [
+                "Dr. Mohammed Mathenulla  Shariff  (Matheen) is the Placement Officer of City Engineering Mobile: +91 9880521339, Mail ID: placements@cityengineeringcollege.ac.in."
+            ],
+            "context_set": ""
+        },       
+        {
+            "tag": "Placement 5",
+            "patterns": [
+                " what are the names of the companies that visit CEC?",
+                " who are the major recruiters visiting your campus?",
+                " List the names of the companies visiting your college?",
+                " List the IT and non IT companies visiting CEC?",
+                " what kind of recruiters should students face during placements?",
+                " name some of the recruiters visiting CEC college?"
+            ],
+            "responses": [
+                "accenture, amazon, Bosch, Cognizant, Dell, EY, Harman, hp, HUAWEI, IBM, Infosys, JUSPAY, L&T Infotech, MICROLAND, Mindtree, Mylan, Quadgen, Radel, SG, SONATA, SUBEX, TATA ELXSI, TCS, Tech Mahindra, Value labs, VOLVO, WIPRO."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 6",
+            "patterns": [
+                "How many students in total were placed in the year 2018-2019?",
+                "How many students were placed from the CS branch in 2018-2019?",
+                "How many students were placed from the ECE branch in 2018-2019?",
+                "How many students were placed from the MECH branch in 2018-2019?",
+                "How many students were placed from the CIV branch in 2018-2019?"
+            ],
+            "responses": [
+                "In 2018-2019, a total of 74 students were placed. 61 students were placed from the CS branch, 11 from ECE, 0 from MECH, and 2 from CIV."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 7",
+            "patterns": [
+                "How many students in total were placed in the year 2019-2020?",
+                "How many students were placed from the CS branch in 2019-2020?",
+                "How many students were placed from the ECE branch in 2019-2020?",
+                "How many students were placed from the MECH branch in 2019-2020?",
+                "How many students were placed from the CIV branch in 2019-2020?"
+            ],
+            "responses": [
+                "In 2019-2020, a total of 54 students were placed. 41 students were placed from the CS branch, 9 from ECE, 1 from MECH, and 3 from CIV."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 8",
+            "patterns": [
+                "How many students in total were placed in the year 2020-2021?",
+                "How many students were placed from the CS branch in 2020-2021?",
+                "How many students were placed from the ECE branch in 2020-2021?",
+                "How many students were placed from the MECH branch in 2020-2021?",
+                "How many students were placed from the CIV branch in 2020-2021?"
+            ],
+            "responses": [
+                "In 2020-2021, a total of 105 students were placed. 86 students were placed from the CS branch, 11 from ECE, 5 from MECH, and 3 from CIV."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 9",
+            "patterns": [
+                "How many students in total were placed in the year 2021-2022?",
+                "How many students were placed from the CS branch in 2021-2022?",
+                "How many students were placed from the ECE branch in 2021-2022?",
+                "How many students were placed from the MECH branch in 2021-2022?",
+                "How many students were placed from the CIV branch in 2021-2022?"
+            ],
+            "responses": [
+                "In 2021-2022, a total of 145 students were placed. 107 students were placed from the CS branch, 31 from ECE, 4 from MECH, and 2 from CIV."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 10",
+            "patterns": [
+                "How many students in total were placed in the year 2022-2023?",
+                "How many students were placed from the CS branch in 2022-2023?",
+                "How many students were placed from the ECE branch in 2022-2023?",
+                "How many students were placed from the MECH branch in 2022-2023?",
+                "How many students were placed from the CIV branch in 2022-2023?"
+            ],
+            "responses": [
+                "In 2022-2023, a total of 36 students were placed. 33 students were placed from the CS branch, 2 from ECE, 1 from MECH, and 0 from CIV."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 11",
+            "patterns": [
+                "Does CEC offer pre-placement training to students?",
+                "What is the need for pre-placement training?",
+                "Why is pre-placement training organized for students at CEC?",
+                "Who organizes pre-placement training at CEC?",
+                "Who trains students during pre-placement training?",
+                "Which branches can attend pre-placement training?",
+                "What is the duration of pre-placement training at CEC?",
+                "Is pre-placement training mandatory at CEC?",
+                "How does pre-placement training help students in interviews?",
+                "What is the focus of the pre-placement training?"
+            ],
+            "responses": [
+                "City Engineering College offers pre-placement training to prepare students and enhance their knowledge based on industry standards. The trainers teach students about various industrial concepts and methodologies to help them succeed in job interviews. The placement officer organizes the drives. Senior technical and HR personnel from leading IT companies conduct several interactive sessions. All branches must compulsorily attend the pre-placement training at CEC. The pre-placement training at CEC lasts for one month."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Placement 12",
+            "patterns": [
+                "List the training programs conducted at CEC?",
+                "Mention the topics covered during the training programs?",
+                "What kind of training programs help students prepare for interviews?",
+                "What are the important topics covered in the training program?",
+                "How can a student improve their chances of success in campus placements?",
+                "Mention the key skills taught to students during training at CEC?",
+                "What are the technical and non-technical topics taught during training?",
+                "Does the training program include resume building?",
+                "Are mock interviews conducted as part of the training?",
+                "Does the training cover group discussions?"
+            ],
+            "responses": [
+                "The training programs cover soft skills, interview skills, corporate readiness, mock interviews, group discussions, online profile management, resume building, aptitude and numerical ability, reasoning ability, English and verbal ability, mock tests, coding, and quantitative and qualitative aptitude."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "branches name",
+            "patterns": [
+                "What are the branches offered at CEC?",
+                "How many branches are there at CEC?",
+                "List the branch names?",
+                "What are the available streams?",
+                "List the available courses?",
+                "How many courses are offered at CEC?",
+                "What are the total number of streams?",
+                "What engineering disciplines are offered?"
+            ],
+            "responses": [
+                "The branches offered at CEC are: Computer Science Engineering, Information Science Engineering, Electronics and Communication Engineering, Mechanical Engineering, Civil Engineering, Basic Sciences, Artificial Intelligence and Engineering, BCA - Bachelor of Computer Applications, MBA - Master of Business Administration and MCA - Master of Computer Applications"
+            ],
+            "context_set": ""
+        },        
+        {
+            "tag": "faculty name in Computer science engineering",
+            "patterns": [
+                "faculty names in CSE",
+                "Teachers names in CSE",
+                "Number of faculties in Computer science branch",
+                "faculties in Computer science",
+                "faculty names in CSE",
+                "teachers names in CSE",
+                "number of faculties in computer science branch",
+                "faculties in computer science",
+                "list of computer science engineering faculty",
+                "CSE department faculty names",
+                "teaching staff in CSE department",
+                "who are the professors in CSE?",
+                "names of lecturers in CSE",
+                "all CSE faculty members"
+            ],
+            "responses": [
+                "Dr. Sowmya Naik PT",
+                "Dr. Ambika PR",
+                "Dr. Kumaraswamy",
+                "Mr. Girish GA",
+                "Mr. Ramesh B",
+                "Mrs. Laxmi MC",
+                "Mrs. Archana Bhat",
+                "Mrs. Tejaswini BN",
+                "Mr. Gangappa B Demannavar",
+                "Mrs. Sangeeta Uranakar",
+                "Mrs. Sangeetha Rao S",
+                "Mrs. Shruthi Vijay",
+                "Mrs. Swetha A",
+                "Mrs. Tara VK",
+                "Mrs. Shruthi BS",
+                "Mrs. Krishnaveni",
+                "Mrs. Hina Nazneen",
+                "Mrs. Vibhavi RN",
+                "Ms. Shravya S",
+                "Mr. Mahadeva Prasad HM",
+                "Mrs. Menaka CN",
+                "Mrs. Spoorthi M",
+                "Ms. Monisha GB",
+                "Mrs. Ashwini JK",
+                "Mr. Satheesh Kumar G",
+                "Mrs. Prajwala R",
+                "Mr. CT Praveenchandra",
+                "Mrs. Sushree Souravi Kar",
+                "Mrs. Varalakshmi P"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "details about faculty",
+            "patterns": [
+                "what are details about the faculties in CSE",
+                "provide qualifications and experiences of faculty in CSE",
+                "Computer science faculty details",
+                "give computer science faculty details"
+            ],
+            "responses": [
+                "https://cityengineeringcollege.ac.in/faculty/faculty-profiles-of-department-of-cse/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "faculty name in information science engineering",
+            "patterns": [
+                "faculty names in ISE",
+                "teachers names in ISE",
+                "number of faculties in information science branch",
+                "faculties in information science",
+                "list of information science engineering faculty",
+                "ISE department faculty names",
+                "teaching staff in ISE department",
+                "who are the professors in ISE?",
+                "names of lecturers in ISE",
+                "all ISE faculty members",
+                "what are the details about the faculties in ISE?",
+                "provide qualifications and experiences of faculty in ISE?",
+                "Information Science faculty details",
+                "give Information Science faculty details",
+                "show the ISE faculty list",
+                "display ISE staff names",
+                "can you provide information about ISE faculty?",
+                "who are the teachers in the Information Science department?",
+                "how many faculty members are in ISE?",
+                "what is the ISE faculty directory?",
+                "provide a list of all teachers in ISE"
+            ],
+            "responses": [
+                "Dr. B Sakthivel",
+                "Mr. Nandish AC",
+                "Mrs. Anita Patil",
+                "Mrs. Vani",
+                "Mrs. R. Mirudhula",
+                "Mr. V John Peter",
+                "Mr. Mathivanan M",
+                "Mrs. Hemalatha Yeramati",
+                "Mrs. Nayana HJ"
+            ],
+            "context_set": ""
+        },
+        {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in ISE",
+                    "provide qualifications and experiences of faculty in ISE",
+                    "Information science faculty details",
+                    "give Information science faculty details",
+                     "tell me more about ISE faculty",
+                    "I want details on ISE teachers",
+                    "Can you share info on ISE faculty qualifications"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-ise/"
+                ],
+                "context_set": ""
+        },
+        {
+                "tag": "faculty name is Electrical and communication engineering",
+                "patterns": [
+                    "faculty names in ECE",
+                    "teachers names in ECE",
+                    "number of faculties in Electrical and communication engineering branch",
+                    "faculties in ECE",
+                    "list of electronics and communication engineering faculty",
+                    "ECE department faculty names",
+                    "teaching staff in ECE department",
+                    "who are the professors in ECE?",
+                    "names of lecturers in ECE",
+                    "all ECE faculty members",
+                    "how many faculty members are in ECE?",
+                    "what is the ECE faculty directory?",
+                    "provide a list of all teachers in ECE"
+                ],
+                "responses": [
+                    "Mrs. Madhavi J Kulkarni",
+                    "Dr. Shalini Prasad",
+                    "Dr. Ravindra S",
+                    "Mr. Gopikishan J",
+                    "Mrs. Shylaja K",
+                    "Mr. Vinay Kumar SN",
+                    "Mr. Vishva Kiran RC"
+                ],
+                "context_set": ""
+        },
+        {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in ECE",
+                    "provide qualifications and experiences of faculty in ECE",
+                    "Electronics and communication faculty details",
+                    "give Electronic and Communication faculty details",
+                    "tell me more about ECE faculty",
+                    "I want details on ECE teachers",
+                    "Can you share info on ECE faculty qualifications"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-ece/"
+                ],
+                "context_set": ""
+            },            
+            {
+                "tag": "faculty name is mechanical engineering",
+                "patterns": [
+                    "faculty names in mechanical engineering",
+                    "teachers names in mechanical engineering",
+                    "number of faculties in Mechanical engineering",
+                    "faculties in mechanical engineering",
+                    "list of mechanical engineering faculty",
+                    "MECH department faculty names",
+                    "teaching staff in MECH department",
+                    "who are the professors in MECH?",
+                    "names of lecturers in MECH",
+                    "all MECH faculty members",
+                    "how many faculty members are in MECH?",
+                    "what is the MECH faculty directory?",
+                    "provide a list of all teachers in MECH",
+                    "MECH faculty list",
+                    "MECH department staff",
+                    "faculty in Mechanical Engineering",
+                    "MECH instructors",
+                    "who are the professors in mechanical engineering?",
+                    "list of professors in MECH",
+                    "MECH professors"
+                ],
+                "responses": [
+                    "Dr. Mohammed Mathenulla Shariff",
+                    "Mr. Anil Kumar R",
+                    "Mrs. Shruti Naik"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in MECH",
+                    "provide qualifications and experiences of faculty in MECH",
+                    "Mechanical engineering faculty details",
+                    "give Mechanical engineering faculty details",
+                    "tell me more about MECH faculty",
+                    "I want details on MECH teachers",
+                    "Can you share info on MECH faculty qualifications",
+                    "show details for MECH faculty",
+                    "display information about MECH department staff",
+                     "show MECH faculty details"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-mechanical-engineering/"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in civil engineering",
+                    "provide qualifications and experiences of faculty in Civil engineering",
+                    "civil engineering faculty details",
+                    "give civil engineering faculty details",
+                    "tell me more about CIVIL faculty",
+                    "I want details on CIVIL teachers",
+                    "Can you share info on CIVIL faculty qualifications",
+                    "show details for CIVIL faculty",
+                    "display information about CIVIL department staff",
+                    "CIVIL faculty details",
+                    "CIVIL faculty information",
+                    "information about CIVIL faculty"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-civil-engineering/"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "faculty name is basic science",
+                "patterns": [
+                    "faculty names in basic science",
+                    "teachers names in basic science",
+                    "number of faculties in basic science",
+                    "faculties in basic science",
+                    "list of basic science faculty",
+                    "basic science department faculty names",
+                    "teaching staff in basic science department",
+                    "who are the professors in basic science?",
+                    "names of lecturers in basic science",
+                    "all basic science faculty members",
+                    "how many faculty members are in basic science?",
+                    "what is the basic science faculty directory?",
+                    "provide a list of all teachers in basic science",
+                    "basic science faculty list",
+                    "basic science department staff",
+                    "faculty in basic science",
+                    "basic science instructors",
+                    "basic science professors",
+                    "basic science lecturers",
+                    "basic science teaching staff"
+                ],
+                "responses": [
+                    "Dr. Jyothi P",
+                    "Dr. Sujatha K",
+                    "Mr. Dinesh S",
+                    "Mrs. Anitha CV",
+                    "Mrs. Swaroopini BS",
+                    "Ms. Bhavitha",
+                    "Ms. Janavi R",
+                    "Ms. Nisarga",
+                    "Mrs. Kavitha A",
+                    "Dr. Rajasekhar P",
+                    "Dr. Sunitha",
+                    "Mr. Sadashiva R",
+                    "Mrs. Nagashree G",
+                    "Mrs. Vanitha GR",
+                    "Ms. Meghana D",
+                    "Mr. Rangaswamy T",
+                    "Ms. Divyashree G",
+                    "Mrs. Deepa R Ganiga"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in basic science",
+                    "provide qualifications and experiences of faculty in basic science",
+                    "basic science faculty details",
+                    "give basic science faculty details",
+                    "tell me more about basic science faculty",
+                    "I want details on basic science teachers",
+                    "Can you share info on basic science faculty qualifications",
+                    "show details for basic science faculty",
+                    "display information about basic science department staff",
+                    "basic science faculty details",
+                    "basic science faculty information",
+                    "information about basic science faculty"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-basic-science/"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "faculty name is artificial intelligence and machine learning",
+                "patterns": [
+                    "faculty names in AIML",
+                    "teachers names in AIML",
+                    "number of faculties in artificial intelligence and machine learning",
+                    "faculties in AIML",
+                    "list of artificial intelligence and machine learning faculty",
+                    "AIML department faculty names",
+                    "teaching staff in AIML department",
+                    "who are the professors in AIML?",
+                    "names of lecturers in AIML",
+                    "all AIML faculty members",
+                    "how many faculty members are in AIML?",
+                    "what is the AIML faculty directory?",
+                    "provide a list of all teachers in AIML",
+                    "AIML faculty list",
+                    "AIML department staff",
+                    "faculty in artificial intelligence and machine learning",
+                    "AIML instructors",
+                    "AIML professors",
+                    "AIML lecturers",
+                    "AIML teaching staff"
+                ],
+                "responses": [
+                    "Dr. S Vagdevi",
+                    "Mrs. Nasrath B K​",
+                    "Mrs. Sangeetha N",
+                    "Mrs Vindhya R",
+                    "Prof. Shruthi B Hiregoudar"
+                ],
+                "context_set": ""
+            },
+            {
+                "tag": "details about faculty",
+                "patterns": [
+                    "what are details about the faculties in AIML",
+                    "provide qualifications and experiences of faculty in artificial intelligence and machine learning",
+                    "artificial intelligence and machine learning faculty details",
+                    "give artificial intelligence and machine learning faculty details",
+                    "tell me more about AIML faculty",
+                    "I want details on AIML teachers",
+                    "Can you share info on AIML faculty qualifications",
+                    "show details for AIML faculty",
+                    "display information about AIML department staff",
+                    "AIML faculty details",
+                    "AIML faculty information",
+                    "information about AIML faculty"
+                ],
+                "responses": [
+                    "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-aiml/" 
+                ],
+                "context_set": ""
+            },
+        {
+            "tag": "faculty name is master of business administration",
+            "patterns": [
+                "faculty names in MBA",
+                "teachers names in MBA",
+                "number of faculties in master of business administration",
+                "faculties in MBA",
+                "list of master of business administration faculty",
+                "MBA department faculty names",
+                "teaching staff in MBA department",
+                "who are the professors in MBA?",
+                "names of lecturers in MBA",
+                "all MBA faculty members",
+                "how many faculty members are in MBA?",
+                "what is the MBA faculty directory?",
+                "provide a list of all teachers in MBA",
+                "MBA faculty list",
+                "MBA department staff",
+                "faculty in master of business administration",
+                "MBA instructors",
+                "MBA professors",
+                "MBA lecturers",
+                "MBA teaching staff"
+            ],
+            "responses": [
+                "Dr. Rajesh R",
+                "Ms. Ankitha Rashminath",
+                "Prof. Shubha Devadiga",
+                "Mrs. Chaithra M S",
+                "Mr. Deepak",
+                "Mr. H N Madhusudhana",
+                "Ms. Vidya Popat"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "details about faculty",
+            "patterns": [
+                "what are details about the faculties in MBA",
+                "provide qualifications and experiences of faculty in master of business administration",
+                "master of business administration faculty details",
+                "give master of business administration faculty details",
+                "tell me more about MBA faculty",
+                "I want details on MBA teachers",
+                "Can you share info on MBA faculty qualifications",
+                "show details for MBA faculty",
+                "display information about MBA department staff",
+                "MBA faculty details",
+                "MBA faculty information",
+                "information about MBA faculty"
+            ],
+            "responses": [
+                "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-mba/"
+            ],
+            "context_set": ""
+        },   
+        {
+            "tag": "faculty name is master of computer applications",
+            "patterns": [
+                "faculty names in MCA",
+                "teachers names in MCA",
+                "number of faculties in master of computer applications",
+                "faculties in MCA",
+                "list of master of computer applications faculty",
+                "MCA department faculty names",
+                "teaching staff in MCA department",
+                "who are the professors in MCA?",
+                "names of lecturers in MCA",
+                "all MCA faculty members",
+                "how many faculty members are in MCA?",
+                "what is the MCA faculty directory?",
+                "provide a list of all teachers in MCA",
+                "MCA faculty list",
+                "MCA department staff",
+                "faculty in master of computer applications",
+                "MCA instructors",
+                "MCA professors",
+                "MCA lecturers",
+                "MCA teaching staff"
+            ],
+            "responses": [
+                "Dr. Puja Shashi",
+                "Mr. Naseerhusen Ankalagi",
+                "Ms. Maheshwari M Desai",
+                "Mrs. Bindu Jagannath",
+                "Ms. Astha Tiwari",
+                "Ms. Pooja C Taragar"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "details about faculty",
+            "patterns": [
+                "what are details about the faculties in MCA",
+                "provide qualifications and experiences of faculty in master of computer applications",
+                "master of computer applications faculty details",
+                "give master of computer applications faculty details",
+                "tell me more about MCA faculty",
+                "I want details on MCA teachers",
+                "Can you share info on MCA faculty qualifications",
+                "show details for MCA faculty",
+                "display information about MCA department staff",
+                "MCA faculty details",
+                "MCA faculty information",
+                "information about MCA faculty"
+            ],
+            "responses": [
+                "https://cityengineeringcollege.ac.in/faculty/faculty-profile-of-department-of-mca/"
+            ],
+            "context_set": ""
+        },     
+        {
+                    "tag": "HOD - Applied Science and Humanities",
+                    "patterns": [
+                        "HOD of Applied Science and Humanities",
+                        "Applied Science and Humanities HOD",
+                        "Head of Department, Applied Science and Humanities"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. Jyothi P",
+                            "Designation": "Professor & Head Dept. of Mathematics",
+                            "Qualifications": "Doctorate from Jain University, Post-graduation from Osmania University, MBA from IGNOU",
+                            "Experience": "22 years of academic/teaching experience, 8 years of research focus",
+                            "Research Area": "Applications of Goal Programming",
+                            "Memberships": "Indian Society for Technical Education (ISTE)"
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - Applied Science and Humanities",
+                    "patterns": [
+                        "Technical Staff of Applied Science and Humanities",
+                        "Applied Science and Humanities Technical Staff",
+                        "Staff of Applied Science and Humanities"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - Chemistry",
+                    "patterns": [
+                        "HOD of Chemistry",
+                        "Chemistry HOD",
+                        "Head of Department, Chemistry"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. P Rajasekhar",
+                            "Designation": "Professor & Head Dept. of Chemistry",
+                            "Qualifications": "Doctorate from Presscot University (UK), Post-graduation from SV University, Tirupathi",
+                            "Experience": "34 years of teaching experience",
+                            "Awards": "Senior Research Fellow awardee from CSIR Govt. of India",
+                             "Contributions":"Published several national and international papers and authored text books for PUC and Engineering.  Consistently organize several state level workshops and chemistry related topics.",
+                            "Memberships": "Indian Society for Technical Education (ISTE)"
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - Chemistry",
+                    "patterns": [
+                        "Technical Staff of Chemistry",
+                        "Chemistry Technical Staff",
+                        "Staff of Chemistry"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - Physics",
+                    "patterns": [
+                        "HOD of Physics",
+                        "Physics HOD",
+                        "Head of Department, Physics"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Mrs. Nagashree G",
+                            "Designation": "Assistant Professor & Head, Department of Physics",
+                            "Qualifications": "MSc in Physics, PhD at VTU",
+                            "Experience": "Over 14 years of teaching experience",
+                            "Teaching Style": "Develops innovative lesson plans, creates dynamic learning environments, uses computer simulations and experiments",
+                            "Other": "Publications in national and international journals, participation in conferences and seminars"
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - Physics",
+                    "patterns": [
+                        "Technical Staff of Physics",
+                        "Physics Technical Staff",
+                        "Staff of Physics"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - Computer Science",
+                    "patterns": [
+                        "HOD of Computer Science",
+                        "Computer Science HOD",
+                        "Head of Department, Computer Science"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. Sowmya Naik P T",
+                            "Designation": "Professor and Head",
+                            "Email": "hodcse@cityengineeringcollege.ac.in",
+                            "Qualifications": "Doctorate from Visvesvaraya Technological University (VTU), Belgaum, Karnataka. Post-graduation from VTU and Graduation from VTU.",
+                            "Experience": "14 years of academic experience, with 8 years of research focus",
+                            "Research Interests": "Image Processing, Data Mining, and Network Security (Guiding 2 research aspirants)",
+                            "Training/Certifications":"Wipro mission10x trained and certified for innovative teaching methods.",
+                            "Other": "Question paper setter for various universities. Organizer of conferences, FDPs, Workshops, Technical seminars, and Technical Fests.",
+                            "Personal Skills": "Analytical, strategist & planner, trainer with excellent communication & exceptional interpersonal skills with the ability to motivate students"
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - Computer Science",
+                    "patterns": [
+                        "Technical Staff of Computer Science",
+                        "Computer Science Technical Staff",
+                        "Staff of Computer Science"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - Civil Engineering",
+                    "patterns": [
+                        "HOD of Civil Engineering",
+                        "Civil Engineering HOD",
+                        "Head of Department, Civil Engineering"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. H. N. Thippeswamy",
+                            "Designation": "Professor and Head",
+                            "Email": "hodcivil@cityengineeringcollege.ac.in",
+                            "Specialization": "Hydraulics and Water resources engineering",
+                            "Experience": "30 years of teaching and 10 years of industrial experience",
+                            "Publications": "Published several research papers in reputed National and International Journals",
+                            "Previous Roles": "Served in various capacities at JMIT-Chitradurga, STJIT-Ranebennur, NIIT-Davangere, BCET-Bangalore, NHCE-Bangalore, TJIT- Bangalore, CEC-Bangalore.",
+                            "Message to Students": "AIM high, THINK high and WORK hard. Work for your growth which adds to the growth of the Institution and the Country. Read autobiography of great people and gets motivated. Now, this is the time to change and change for better. Believes in positive thinking, hardworking and belief in oneself. GRATITUDE IS THE BEST ATTITUDE.",
+                            "Current Role": "Continuing as Professor and Head of Civil Engineering department after remitting the post of Principal of City Engineering College on 31-01-2024."
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - Civil Engineering",
+                    "patterns": [
+                        "Technical Staff of Civil Engineering",
+                        "Civil Engineering Technical Staff",
+                        "Staff of Civil Engineering"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "Ms Devika"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - Mechanical Engineering",
+                    "patterns": [
+                        "HOD of Mechanical Engineering",
+                        "Mechanical Engineering HOD",
+                        "Head of Department, Mechanical Engineering"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. S Karunakara",
+                            "Designation": "Professor and Head",
+                            "Email": "hodme@cityengineeringcollege.ac.in",
+                            "Qualifications": "B.E. in Mechanical Engineering from Bangalore University, M-Tech with Distinction in Manufacturing Science and Technology from VTU, Ph.D. in Composite Materials by VTU.",
+                            "Experience": "Worked in various popular Institutions at different Academic levels.",
+                            "Research Interests": "Materials Research",
+                            "Publications": "Presented papers in many International/National journals and International Conferences.",
+                            "Memberships": "Life time member of ISTE.",
+                            "Teaching Philosophy": "Believes that Right Education to the student will build confidence and strengthens him to conquer the world."
+                        }
+                    ]
+                },
+                 {
+                    "tag": "Technical Staff - Mechanical Engineering",
+                    "patterns": [
+                        "Technical Staff of Mechanical Engineering",
+                        "Mechanical Engineering Technical Staff",
+                        "Staff of Mechanical Engineering"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - AIML",
+                    "patterns": [
+                        "HOD of AIML",
+                        "AIML HOD",
+                        "Head of Department, AIML"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. S. Vagdevi",
+                            "Designation": "Professor and Head",
+                            "Mobile": "+91 8277343032",
+                            "Email": "hod.aiml@cityengineeringcollege.ac.in",
+                            "Qualifications": "B.E., M.E., M.S., Ph.D",
+                            "Teaching Philosophy": "Committed to fostering student success through effective teaching practices.  Focuses on motivating students and instilling an analytical mindset to embrace new technologies. Pushes students beyond the syllabus.",
+                            "Teaching Framework": "Delivers fundamental principles, equips students with resources, and fosters curiosity.  Prioritizes technical mastery, leadership, communication, teamwork, and professional ethics.",
+                            "Other": "Actively involved in research, publishing papers, guiding PhD students, and pursuing funded projects and patents.",
+                            "Advising": "Provides guidance to students at all levels, nurturing their creativity, independence, and sense of responsibility.",
+                             "Personal Goal": "Inspire students to think critically, act responsibly, and contribute meaningfully to society with a compassionate perspective."
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - AIML",
+                    "patterns": [
+                        "Technical Staff of Artificial Intelligence and Machine Learning",
+                        "AIML Technical Staff",
+                        "Staff of AIML"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - E&CE",
+                    "patterns": [
+                        "HOD of E&CE",
+                        "E&CE HOD",
+                        "Head of Department, E&CE"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Mallikarjuna G S",
+                            "Designation": "Professor & Head Dept. of E&CE",
+                            "Experience": "Over 10 years as an IT professional and over 15 years of teaching experience.",
+                            "Qualifications": "M.Tech in Industrial Electronics",
+                            "Skills": "Creating engaging learning environments, fostering student growth, and bridging the gap between theory and practical application.",
+                            "IT Experience": "Designing and developing robust software and hardware solutions for diverse applications, specializing in Embedded Systems.",
+                            "Technical Proficiency": "Microprocessors, Control Systems, Basic Electrical, Basic Electronics, Network Theory, Python, Analog Electronic Circuits, Operating Systems, Real-Time Systems, and Electronic Instrumentation.",
+                            "Philosophy": "Passionate about staying ahead of industry trends, driving positive change, and contributing to the field through continuous learning and innovation."
+                        }
+                    ]
+                },
+                {
+                    "tag": "Technical Staff - E&CE",
+                    "patterns": [
+                        "Technical Staff of Electronics & Communication Engineering",
+                        "E&CE Technical Staff",
+                        "Staff of E&CE"
+                    ],
+                    "responses": [
+                       {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                },
+                {
+                    "tag": "HOD - ISE",
+                    "patterns": [
+                        "HOD of ISE",
+                        "ISE HOD",
+                        "Head of Department, ISE"
+                    ],
+                    "responses": [
+                        {
+                            "HOD": "Dr. B Sakthivel",
+                            "Designation": "dept of ISE HOD"
+                        }
+                    ]
+                },
+                {
+                     "tag": "Technical Staff - ISE",
+                    "patterns": [
+                        "Technical Staff of Information Science and Engineering",
+                        "ISE Technical Staff",
+                        "Staff of ISE"
+                    ],
+                    "responses": [
+                        {
+                            "Technical Staff": "No information available"
+                        }
+                    ]
+                }
+            ],
+            "context_set": ""
+        }
+        
