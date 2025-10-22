@@ -6,3 +6,7 @@ __pycache__/
 *.h5
 *.mp4
 static/uploads/
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.md linguist-detectable=false
