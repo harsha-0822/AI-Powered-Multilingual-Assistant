@@ -1,0 +1,4 @@
+echo "*.html linguist-detectable=false" > .gitattributes
+echo "*.css linguist-detectable=false" >> .gitattributes
+echo "*.js linguist-detectable=false" >> .gitattributes
+echo "*.md linguist-detectable=false" >> .gitattributes
